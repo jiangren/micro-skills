@@ -1,0 +1,17 @@
+title: 我的微技能日志
+description: 基于《微精通》方法论，每周一个 3-5 小时可完成的微技能学习方案
+theme: minima
+minima:
+  skin: auto
+  date_format: "%Y-%m-%d"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 时区，让日期显示一致
+timezone: Asia/Shanghai
+
+# 排除工作文件
+exclude:
+  - README.md
+  - .gitignore
